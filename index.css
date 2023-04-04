@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; 
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+div{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #07cee9, rgb(57, 56, 143) );
+  justify-content: center;
+}
+.foto1{
+  justify-content: center;
+  width: 480px;
+}
+.titulo{
+
+  text-align: center;}
+
+.botao{
+  justify-content: center;
+  border: 1px;
+  padding: 1%;
+  border-radius: 10px;
+  color:white;
+  background-color:  #2f2cc9;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; 
+}
+
+.fonte2{
+  scale: 50px;
+  padding: 20px;
+  color: aliceblue;
+}
